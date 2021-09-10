@@ -90,7 +90,7 @@ Declare and define the derived class Player that satisfies:
     - The mentioned constructors and methods can be accessed outside Player class
 */
 
-class Player {
+class Player : private Character {
 private:
     Character *character;
 public:
